@@ -1,0 +1,85 @@
+[
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi.params",
+        "description": "fastapi.params",
+        "isExtraImport": true,
+        "detail": "fastapi.params",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "class Post(BaseModel):\n    title: str\n    content: str\n    published: bool = True\n    rating: Optional[int] = None\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Hello World\"}\n@app.get(\"/posts\")\nasync def root():",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI()\nmypost = [\n    {\"title\": \"My first post\", \"content\": \"This is my first post\",\n        \"published\": False, \"rating\": None, \"id\": 1},\n    {\"title\": \"My second post\", \"content\": \"This is my second post\",\n        \"published\": True, \"rating\": 5, \"id\": 2},\n    {\"title\": \"My third post\", \"content\": \"This is my third post\",\n        \"published\": False, \"rating\": None, \"id\": 3},\n    {\"title\": \"My fourth post\", \"content\": \"This is my fourth post\",\n        \"published\": True, \"rating\": 4, \"id\": 4},",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "mypost",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "mypost = [\n    {\"title\": \"My first post\", \"content\": \"This is my first post\",\n        \"published\": False, \"rating\": None, \"id\": 1},\n    {\"title\": \"My second post\", \"content\": \"This is my second post\",\n        \"published\": True, \"rating\": 5, \"id\": 2},\n    {\"title\": \"My third post\", \"content\": \"This is my third post\",\n        \"published\": False, \"rating\": None, \"id\": 3},\n    {\"title\": \"My fourth post\", \"content\": \"This is my fourth post\",\n        \"published\": True, \"rating\": 4, \"id\": 4},\n    {\"title\": \"My fifth post\", \"content\": \"This is my fifth post\",",
+        "detail": "app.main",
+        "documentation": {}
+    }
+]
